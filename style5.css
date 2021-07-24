@@ -1,0 +1,39 @@
+ol{
+    background-color: yellow;
+}
+.par{
+    background-color: green;
+}
+.impar{
+    text-transform: uppercase;
+}
+h1, h3{color: red;
+    
+}
+.italico{
+    font-size: 40px;
+}
+li{
+    font-size: 20px
+}li em {
+    font-weight: 700;
+}.linguagem:nth-child(-n+3){
+    color: blue;
+}.dois, .tres{
+    background-color: rgb(238, 74, 197);
+}
+.primeiro:hover{
+    background-color: orange;
+}
+.segundo:hover{
+    background-color: green;
+}
+.terceiro:hover{
+    background-color: black;
+}
+.quarto:hover{
+    background-color: yellow;
+}
+.quinto:hover{
+    background-color: rgb(146, 223, 146);
+}
