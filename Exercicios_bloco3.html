@@ -3,121 +3,64 @@
     <head>
         <meta charset="UTF-8">
         <title>Minhas informações pessoais</title>
+        <link rel="stylesheet" href="style0.css">
     </head>
-    <style> 
-    .tytletipe {
-        color: rgb(56, 54, 54);
-        text-align: center
-        
-    }
-    .picture{
-        border-radius: 50%;
-        text-align: center;
-        height: 300px;
-        width: 270px 
-        
-        
-        
-    }#landing{
-        text-align: center; Submit
-    }
-    #aboutme{
-        text-align:left;
-        background-color:white
-    }
-    h2{
-        font-size: 30px;
-        color: rgb(51, 19, 44);
-        text-align: center;
-        background-color:rgb(197, 194, 197);
-    }
-    h4{
-        font-size: 22px;
-    }
-    p{
-        font:arial
-
-    }
-    h3{
-        
-    }
-    button{
-        color: rgb(197, 189, 197);
-        background-color: rgb(122, 33, 33);
-        font-size: 19px;
-        border-bottom: rgb(124, 31, 25);
-        border-radius: 10px;
-        font-style: oblique;
-    }
-
-
-
-    body{
-        background-color: rgb(133, 117, 133);
-        font-family: sans-serif
-    }
-        
-    </style>
     <body>
         <div id="navbar">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#landing">Inicio
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#aboutme">Sobre mim</a>
-                    </li>
-                    <li>
-                        <a href="#likes">Coisas que eu curto</a>
-                    </li>
-                </ul>
+            <nav >
+                        <a class="on" href="#landing">   Inicio    |</a>
+                        <a class="on" href="#aboutme">  Sobre mim    |</a>
+                        <a class="on" href="#likes">Coisas que eu curto    </a>
+                    
+                
             </nav>
-            <hr>
         <div id="landing">
             <h1 class="tytletipe">Davi Soares Coura</h1>
+            <img class="picture" id="fotoams" src="iceland.jpeg">
             <img class="picture" id="foto" src="fotodavi" width="200px" 
             alt="Foto atualizada de Davi Soares">
             <h4><em>
                 "O ativo mais poderoso que nós possuímos é a nossa mente"
 
 
-            </em>
-
-            </h4>
-            <p>Me chamo Davi e sou estudante de desenvolvimento Web na <strong>TRYBE </strong>.
-                <br>Busco novos desafios e oportunidades no mercado Desenvolvimento Web.
-                 <br>Sou <strong>brasileiro</strong> nascido em uma cidade do interior de <strong>Minas Gerais</strong> e atualmente moro em <strong>Amsteram na Holanda</strong></p>
+            </em></h4>
+            <p>Me chamo Davi e sou estudante <br> de desenvolvimento Web na <strong>TRYBE </strong>.<br>
+                Busco novos desafios e oportunidades <br> no mercado Desenvolvimento Web.
+                 <br>Sou <strong>brasileiro</strong> nascido em uma cidade <br> do interior de <strong>Minas Gerais</strong> e atualmente <br> moro em <strong>Amsteram na Holanda</strong></p>
         </div>
-        <hr>
         <div id="aboutme">
             <h2>Sobre mim</h2>
+            <div class="rede">
             <h3>Rede Sociais</h3>
             <a href="https://github.com/davisoaresc" target="_blank"><button>github</button></a>
             <a href="https://www.instagram.com/davisoaresc/" target="_blank"><button>instagram</button></a>
+             </div>
+            <div class="soft">
             <h3>Soft skills</h3>
-        <ul>
+            <ul>
             <li><strong>Comunicação</strong></li>
             <li>Facilidade em aprendizado</li>
             <li>Bom desenvolvimento em equipe</li>
             <li>Empatia</li>
-        </ul> 
+        </ul>  </div>
+        <div class="hard">
             <h3>Hard skills</h3>
         <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>Java Script</li>
         </ul> 
+        </div>
+        <div class="idiomas">
         <h3>Idiomas</h3>
         <ul>
             <li>Portugues</li>
             <li>Ingles</li>
             <li>Espanhol</li>
             <li>Holandes</li>
-        </ul> 
+        </ul>
+         </div>
         </div>
-        <hr>
         <div id="likes">
             <h2>Coisas que eu curto</h2>
             <ul>
