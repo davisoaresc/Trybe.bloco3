@@ -38,10 +38,19 @@
         top: 130px;
       }
       h3{
-          text-align: center;
-      }
-      } .premio li{
-          display: inline ;
-          text-align: center;
+          text-align: center;}
+          li{
+            display: inline-block;
           }
+      .award{
+        display: inline-block;
+        margin-left: 570px;
+      }
+
+        
+      
+        
+  
+    
+        
       
